@@ -1,5 +1,9 @@
-<div class="container">
-  <h1>Hola Eliza</h1>
-  <h2>Porque mientes?</h2>
-</div>
-
+<mat-drawer-container>
+  <mat-drawer mode="side" opened="true">
+    <app-side-bar></app-side-bar>
+  </mat-drawer>
+  <mat-drawer-content>
+    <app-header></app-header>
+    <app-production></app-production>
+  </mat-drawer-content>
+</mat-drawer-container>
